@@ -6,10 +6,10 @@ import './styles/App.css'
 
 import github from './assets/github.svg'
 import instagram from './assets/instagram.svg'
-// import linkedin from './assets/linkedin.svg'
-// import twitter from './assets/twitter.svg'
-// import cv from './assets/cv.svg'
-// import download from './assets/download.svg'
+import linkedin from './assets/linkedin.png'
+import twitter from './assets/x.svg'
+import pdf from './assets/pdf.png'
+import web from './assets/web.png'
 
 function App() {
   return (
@@ -28,26 +28,26 @@ function App() {
             icon={github}
           />
           <LinkCard
-            href="https://linkedin.com/in/ramonherrera"
+            href="https://www.linkedin.com/in/ramon-herrera-robles/"
             label="LinkedIn"
-            icon={undefined}
+            icon={linkedin}
           />
           <LinkCard
             href="https://twitter.com/rammoon13"
-            label="Twitter"
-            icon={undefined}
+            label="X (Twitter)"
+            icon={twitter}
           />
         </Section>
         <Section title="Sobre Mí">
           <LinkCard
             href="#curriculum"
             label="Ver Currículum Online"
-            icon={undefined}
+            icon={web}
           />
           <LinkCard
             href="/ramon-herrera-cv.pdf"
-            label="Descargar CV"
-            icon={undefined}
+            label="Mi Curriculum"
+            icon={pdf}
           />
         </Section>
       </main>

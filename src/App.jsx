@@ -45,7 +45,7 @@ function App() {
             icon={undefined}
           />
           <LinkCard
-            href="#cv"
+            href="/ramon-herrera-cv.pdf"
             label="Descargar CV"
             icon={undefined}
           />

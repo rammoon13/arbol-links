@@ -3,7 +3,7 @@ import '../styles/Footer.css'
 function Footer() {
   return (
     <footer className="footer">
-      <p>Creado por Ramón · 2025</p>
+      <p>Creado por <b>Ramón Herrera Robles</b> · 2025 · React</p>
     </footer>
   )
 }

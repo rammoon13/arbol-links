@@ -3,8 +3,8 @@ import LinkCard from './components/LinkCard'
 import Footer from './components/Footer'
 import './styles/App.css'
 
-// import githubIcon from './assets/icono-github.svg'
-// import instagramIcon from './assets/icono-instagram.svg'
+import github from './assets/github.svg'
+import instagram from './assets/instagram.svg'
 
 function App() {
   return (
@@ -12,14 +12,14 @@ function App() {
       <Header />
       <main className="links">
         <LinkCard
-          href="https://github.com/ramonhrrr"
-          label="GitHub"
-          /* icon={githubIcon} */
+          href="https://instagram.com/rammoon13"
+          label="Instagram"
+          icon={instagram}
         />
         <LinkCard
-          href="https://instagram.com/ramonhrrr"
-          label="Instagram"
-          /* icon={instagramIcon} */
+          href="https://github.com/rammoon13"
+          label="GitHub"
+          icon={github}
         />
       </main>
       <Footer />
